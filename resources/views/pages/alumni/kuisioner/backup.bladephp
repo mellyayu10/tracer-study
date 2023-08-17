@@ -1,0 +1,571 @@
+<div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sarana_menghubungi"> Sarana Untuk Menghubungi </label>
+                                    <select name="sarana_menghubungi" class="form-control" id="sarana_menghubungi">
+                                        <option value="">- Pilih -</option>
+                                        <option value="HP">HP</option>
+                                        <option value="TELEPHONE"> TELEPHONE </option>
+                                        <option value="KANTOR">KANTOR</option>
+                                        <option value="EMAIL">EMAIL</option>
+                                        <option value="POS">POS</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="kegiatan_setelah_lulus"> Kegiatan Setelah Lulus </label>
+                                    <select name="kegiatan_setelah_lulus" class="form-control" id="kegiatan_setelah_lulus">
+                                        <option value="">- Pilih -</option>
+                                        <option value="BEKERJA">BEKERJA</option>
+                                        <option value="MELANJUTKAN STUDI">MELANJUTKAN STUDI</option>
+                                        <option value="WIRASWASTA">WIRASWASTA</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="ipk_kelulusan"> IPK Kelulusan </label>
+                                    <input type="text" class="form-control" name="ipk_kelulusan" id="ipk_kelulusan" placeholder="0">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h4 class="card-title">
+                            Data Akademik
+                        </h4>
+                        <hr>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-2 col-form-label"> Perkuliahan </label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_perkuliahan"
+                                            id="point_perkuliahan" value="1">
+                                            <label class="form-check-label" for="point_perkuliahan">
+                                                Sangat Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_perkuliahan"
+                                            id="point_perkuliahan" value="2">
+                                            <label class="form-check-label" for="point_perkuliahan">
+                                                Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_perkuliahan"
+                                            id="point_perkuliahan" value="3">
+                                            <label class="form-check-label" for="point_perkuliahan">
+                                                Cukup Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_perkuliahan"
+                                            id="point_perkuliahan" value="4">
+                                            <label class="form-check-label" for="point_perkuliahan">
+                                                Kurang
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_perkuliahan"
+                                            id="point_perkuliahan" value="5">
+                                            <label class="form-check-label" for="point_perkuliahan">
+                                                Tidak Sama Sekali
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-2 col-form-label"> Demonstrasi </label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_demonstrasi"
+                                            id="point_demonstrasi" value="1">
+                                            <label class="form-check-label" for="point_demonstrasi">
+                                                Sangat Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_demonstrasi"
+                                            id="point_demonstrasi" value="2">
+                                            <label class="form-check-label" for="point_demonstrasi">
+                                                Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_demonstrasi"
+                                            id="point_demonstrasi" value="3">
+                                            <label class="form-check-label" for="point_demonstrasi">
+                                                Cukup Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_demonstrasi"
+                                            id="point_demonstrasi" value="4">
+                                            <label class="form-check-label" for="point_demonstrasi">
+                                                Kurang
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_demonstrasi"
+                                            id="point_demonstrasi" value="5">
+                                            <label class="form-check-label" for="point_demonstrasi">
+                                                Tidak Sama Sekali
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-2 col-form-label"> Partisipasi Dalam Proyek Riset </label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_partisipasi_proyek_riset"
+                                            id="point_partisipasi_proyek_riset" value="1">
+                                            <label class="form-check-label" for="point_partisipasi_proyek_riset">
+                                                Sangat Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_partisipasi_proyek_riset"
+                                            id="point_partisipasi_proyek_riset" value="2">
+                                            <label class="form-check-label" for="point_partisipasi_proyek_riset">
+                                                Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_partisipasi_proyek_riset"
+                                            id="point_partisipasi_proyek_riset" value="3">
+                                            <label class="form-check-label" for="point_partisipasi_proyek_riset">
+                                                Cukup Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_partisipasi_proyek_riset"
+                                            id="point_partisipasi_proyek_riset" value="4">
+                                            <label class="form-check-label" for="point_partisipasi_proyek_riset">
+                                                Kurang
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_partisipasi_proyek_riset"
+                                            id="point_partisipasi_proyek_riset" value="5">
+                                            <label class="form-check-label" for="point_partisipasi_proyek_riset">
+                                                Tidak Sama Sekali
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-2 col-form-label"> Magang </label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_magang"
+                                            id="point_magang" value="1">
+                                            <label class="form-check-label" for="point_magang">
+                                                Sangat Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_magang"
+                                            id="point_magang" value="2">
+                                            <label class="form-check-label" for="point_magang">
+                                                Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_magang"
+                                            id="point_magang" value="3">
+                                            <label class="form-check-label" for="point_magang">
+                                                Cukup Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_magang"
+                                            id="point_magang" value="4">
+                                            <label class="form-check-label" for="point_magang">
+                                                Kurang
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_magang"
+                                            id="point_magang" value="5">
+                                            <label class="form-check-label" for="point_magang">
+                                                Tidak Sama Sekali
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-2 col-form-label"> Praktikum </label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_praktikum"
+                                            id="point_praktikum" value="1">
+                                            <label class="form-check-label" for="point_praktikum">
+                                                Sangat Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_praktikum"
+                                            id="point_praktikum" value="2">
+                                            <label class="form-check-label" for="point_praktikum">
+                                                Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_praktikum"
+                                            id="point_praktikum" value="3">
+                                            <label class="form-check-label" for="point_praktikum">
+                                                Cukup Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_praktikum"
+                                            id="point_praktikum" value="4">
+                                            <label class="form-check-label" for="point_praktikum">
+                                                Kurang
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_praktikum"
+                                            id="point_praktikum" value="5">
+                                            <label class="form-check-label" for="point_praktikum">
+                                                Tidak Sama Sekali
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-2 col-form-label"> Kerja Lapangan </label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_kerja_lapangan"
+                                            id="point_kerja_lapangan" value="1">
+                                            <label class="form-check-label" for="point_kerja_lapangan">
+                                                Sangat Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_kerja_lapangan"
+                                            id="point_kerja_lapangan" value="2">
+                                            <label class="form-check-label" for="point_kerja_lapangan">
+                                                Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_kerja_lapangan"
+                                            id="point_kerja_lapangan" value="3">
+                                            <label class="form-check-label" for="point_kerja_lapangan">
+                                                Cukup Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_kerja_lapangan"
+                                            id="point_kerja_lapangan" value="4">
+                                            <label class="form-check-label" for="point_kerja_lapangan">
+                                                Kurang
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_kerja_lapangan"
+                                            id="point_kerja_lapangan" value="5">
+                                            <label class="form-check-label" for="point_kerja_lapangan">
+                                                Tidak Sama Sekali
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-2 col-form-label"> Diskusi </label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_diskusi"
+                                            id="point_diskusi" value="1">
+                                            <label class="form-check-label" for="point_diskusi">
+                                                Sangat Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_diskusi"
+                                            id="point_diskusi" value="2">
+                                            <label class="form-check-label" for="point_diskusi">
+                                                Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_diskusi"
+                                            id="point_diskusi" value="3">
+                                            <label class="form-check-label" for="point_diskusi">
+                                                Cukup Besar
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_diskusi"
+                                            id="point_diskusi" value="4">
+                                            <label class="form-check-label" for="point_diskusi">
+                                                Kurang
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="point_diskusi"
+                                            id="point_diskusi" value="5">
+                                            <label class="form-check-label" for="point_diskusi">
+                                                Tidak Sama Sekali
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <h4 class="card-title">
+                            Data Pekerjaan (Data Pekerjaan Saat Ini)
+                        </h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="pengalaman_pekerjaan">Pengalaman Pekerjaan</label>
+                                    <select name="pengalaman_pekerjaan" class="form-control" id="pengalaman_pekerjaan">
+                                        <option value="">- Pilih -</option>
+                                        <option value="TIDAK PERNAH">TIDAK PERNAH</option>
+                                        <option value="KURANG LEBIH DARI 3 KALI">KURANG LEBIH DARI 3 KALI</option>
+                                        <option value="LEBIH DARI 3 KALI">LEBIH DARI 3 KALI</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="pekerjaan"> Pekerjaan </label>
+                                    <select name="pekerjaan" class="form-control" id="pekerjaan">
+                                        <option value="">- Pilih -</option>
+                                        @foreach ($pekerjaan as $item)
+                                            <option value="{{ $item["id"] }}">
+                                                {{ $item["nama_pekerjaan"] }}
+                                            </option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="mendapatkan_pekerjaan"> Langkah Pekerjaan </label>
+                                    <select name="mendapatkan_pekerjaan" class="form-control" id="mendapatkan_pekerjaan">
+                                        <option value="">- Pilih -</option>
+                                        @foreach ($dapat_pekerjaan as $item)
+                                            <option value="{{ $item["id"] }}">
+                                                {{ $item["langkah_pekerjaan"] }}
+                                            </option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="nama_perusahaan"> Nama Perusahaan </label>
+                            <input type="text" class="form-control" name="nama_perusahaan" id="nama_perusahaan" placeholder="Masukkan Nama Perusahaan">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="nama_atasan"> Nama Atasan </label>
+                                    <input type="text" class="form-control" name="nama_atasan" id="nama_atasan" placeholder="Masukkan Nama Atasan">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="jabatan"> Jabatan </label>
+                                    <input type="text" class="form-control" name="jabatan" id="jabatan" placeholder="Masukkan Jabatan">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="nomor_telephone"> Nomor Telephone </label>
+                                    <input type="text" class="form-control" name="nomor_telephone" id="nomor_telephone" placeholder="085324237299">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="alamat_perusahaan"> Alamat Perusahaan </label>
+                            <textarea name="alamat_perusahaan" class="form-control" id="alamat_perusahaan" rows="5" placeholder="Masukkan Alamat Perusahaan"></textarea>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="mencari_pekerjaan"> Kapan Mencari Pekerjaan </label>
+                                    <select name="mencari_pekerjaan" class="form-control" id="mencari_pekerjaan">
+                                        <option value="">- Pilih -</option>
+                                        <option value="SEBELUM LULUS">SEBELUM LULUS</option>
+                                        <option value="SESUDAH LULUS">SESUDAH LULUS</option>
+                                        <option value="TIDAK MENCARI">TIDAK MENCARI</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="deskripsi_pekerjaan"> Deskripsi Pekerjaan </label>
+                                    <input type="text" class="form-control" name="deskripsi_pekerjaan" id="deskripsi_pekerjaan" placeholder="Masukkan Deskripsi Pekerjaan Anda">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="mulai_bekerja"> Mulai Bekerja </label>
+                                    <input type="date" class="form-control" name="mulai_bekerja" id="mulai_bekerja">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="banyak_perusahaan"> Banyak Perusahaan Yang Anda Lamar </label>
+                                    <input type="number" class="form-control" name="banyak_perusahaan" id="banyak_perusahaan" placeholder="0" min="1">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="respon_banyak_perusahaan"> Banyak Perusahaan Yang Merespon </label>
+                                    <input type="number" class="form-control" name="respon_banyak_perusahaan" id="respon_banyak_perusahaan" placeholder="0" min="1">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="instansi_wawancara"> Banyak Perusahaan Yang Wawancara </label>
+                                <input type="number" class="form-control" name="instansi_wawancara" id="instansi_wawancara" placeholder="0" min="1">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sesuai_keahlian"> Sesuai Dengan Keahlian </label>
+                                    <select name="sesuai_keahlian" class="form-control" id="sesuai_keahlian">
+                                        <option value="">- Pilih -</option>
+                                        <option value="YA">YA</option>
+                                        <option value="TIDAK">TIDAK</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="masa_tunggu_bekerja"> Masa Tunggu Bekerja </label>
+                                    <select name="masa_tunggu_bekerja" class="form-control" id="masa_tunggu_bekerja">
+                                        <option value="">- Pilih -</option>
+                                        <option value="KURANG DARI 6 BULAN">KURANG DARI 6 BULAN</option>
+                                        <option value="6-12 BULAN">6-12 BULAN</option>
+                                        <option value="LEBIH DARI 12 BULAN">LEBIH DARI 12 BULAN</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="gaji"> GAJI </label>
+                                    <select name="gaji" class="form-control" id="gaji">
+                                        <option value="">- Pilih -</option>
+                                        <option value="KURANG DARI 1 JUTA">KURANG DARI 1 JUTA</option>
+                                        <option value="1-3 JUTA">1-3 JUTA</option>
+                                        <option value="LEBIH DARI 3 JUTA">LEBIH DARI 3 JUTA</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="kesan"> Kesan - Kesan </label>
+                                    <textarea name="kesan" class="form-control" id="kesan" rows="5" placeholder="Masukkan Kesan"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="saran_masukan"> Saran </label>
+                                    <textarea name="saran_masukan" class="form-control" id="saran_masukan" rows="5" placeholder="Masukkan Saran dan Masukan"></textarea>
+                                </div>
+                            </div>
+                        </div>
